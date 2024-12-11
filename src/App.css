@@ -1,0 +1,39 @@
+/* Overall layout container for the main application */
+.containermain {  
+  display: grid; /* Use grid layout for organizing the application sections */
+  grid-template-columns: 1fr 1fr; /* Define two equal columns */
+  grid-template-rows: 0.3fr 2fr; /* Define row heights: header is smaller, main sections larger */
+  gap: 10px 10px; /* Add spacing between grid items */
+  grid-auto-flow: row; /* Set the default flow of items to rows */
+  grid-template-areas: /* Define the named grid areas */
+    "headermain headermain" /* Header spans both columns */
+    "rightmain leftmain"    /* Right and left main sections in separate columns */
+    "rightmain ticketpoolmain"; /* Right section spans two rows, with ticket pool at the bottom */
+}
+
+/* Global body styling */
+body {
+  margin: 0; /* Remove default margins for the page */
+  overflow: hidden; /* Disable scrolling on the page */
+  background-color: #E4E0E1; /* Set the background color */
+}
+
+/* Header section styling */
+.headermain { 
+  grid-area: headermain; /* Assign the header section to the grid area named "headermain" */
+}
+
+/* Right section styling */
+.rightmain { 
+  grid-area: rightmain; /* Assign the right section to the grid area named "rightmain" */
+}
+
+/* Left section styling */
+.leftmain { 
+  grid-area: leftmain; /* Assign the left section to the grid area named "leftmain" */
+}
+
+/* Ticket pool section styling */
+.ticketpoolmain { 
+  grid-area: ticketpoolmain; /* Assign the ticket pool section to the grid area named "ticketpoolmain" */
+}

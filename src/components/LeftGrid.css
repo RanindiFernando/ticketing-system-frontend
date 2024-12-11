@@ -1,0 +1,24 @@
+/* LeftGrid.css */
+
+/* Main container for the left grid layout */
+.left-grid {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: 1fr; /* Single column layout */
+  grid-template-rows: 1fr 1fr 1fr; /* Three equal rows */
+  grid-gap: 20px; /* Space between grid items */
+  grid-template-areas: 
+      "ticket-form-grid" /* First and second rows occupy the same area */
+      "ticket-form-grid" 
+      "ticketpoolmain"; /* Third row for the ticket pool */
+  margin-left: 10px; /* Add margin to the left for spacing */
+}
+
+/* Styling for the ticket form grid area */
+.ticket-form-grid {
+  grid-area: ticket-form-grid; /* Assign to the ticket-form-grid area */
+}
+
+/* Styling for the ticket pool main area */
+.ticketpoolmain {
+  grid-area: ticketpoolmain; /* Assign to the ticketpoolmain area */
+}

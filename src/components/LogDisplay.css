@@ -1,0 +1,63 @@
+/* LogDisplay.css */
+
+/* Main container for the logs grid layout */
+.logs-grid {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 10px; /* Add spacing between items */
+  height: 125.5px; /* Fixed height to ensure consistent layout */
+}
+
+/* Styling for the heading in the log display */
+.log-display h3 {
+  margin: 0.5; /* Minimal margin for proper spacing */
+  font-size: 20px; /* Adjust font size to make it readable */
+}
+
+/* Styling for the modal's unordered list */
+.ReactModal__Content ul {
+  list-style-type: none; /* Remove bullet points from list */
+  padding: 0; /* Remove padding for clean alignment */
+  margin: 0; /* Remove default margins for consistent styling */
+}
+
+/* Styling for each list item in the modal */
+.ReactModal__Content ul li {
+  font-size: 14px; /* Set font size for readability */
+  color: #555; /* Use a subtle dark gray color */
+  padding: 5px 0; /* Add vertical padding for spacing */
+  border-bottom: 1px solid #ddd; /* Add a light border for separation */
+}
+
+/* Remove the bottom border for the last list item */
+.ReactModal__Content ul li:last-child {
+  border-bottom: none; /* Clean ending for the list */
+}
+
+/* General button styling for both the logs grid and modal */
+.logs-grid button,
+.ReactModal__Content button {
+  padding: 10px 10px; /* Add padding for clickable size */
+  font-size: 14px; /* Standard font size for buttons */
+  background-color: #007bff; /* Primary blue color for buttons */
+  color: white; /* White text for contrast */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for modern design */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+  margin-bottom: 30px; /* Space below the button */
+  margin-left: 25.6px; /* Align button slightly to the right */
+}
+
+/* Hover state for buttons */
+.logs-grid button:hover,
+.ReactModal__Content button:hover {
+  background-color: #074799; /* Slightly darker blue for hover effect */
+}
+
+/* Active (clicked) state for buttons */
+.logs-grid button:active,
+.ReactModal__Content button:active {
+  background-color: #074799; /* Same darker blue for active state */
+}

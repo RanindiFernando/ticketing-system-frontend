@@ -1,0 +1,42 @@
+/* RightGrid.css */
+
+/* General container for the right grid */
+.right-grid {
+  display: grid; /* Use grid layout for arranging child elements */
+  grid-template-rows: 1fr 1fr 1fr; /* Divide grid into three equal rows */
+  grid-gap: 15px; /* Space between rows */
+  margin-left: 20px; /* Add space to the left for positioning */
+}
+
+/* Common styles for vendor, customer, and logs grids */
+.vendor-grid,
+.customer-grid,
+.logs-grid {
+  display: flex; /* Use flexbox for content alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Vendor section styling */
+.vendor-grid {
+  background-color: #f4f4f4; /* Light gray background for contrast */
+  padding: 5px; /* Padding inside the grid */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Customer section styling */
+.customer-grid {
+  background-color: #f4f4f4; /* Light gray background for contrast */
+  padding: 5px; /* Padding inside the grid */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Logs section styling */
+.logs-grid {
+  background-color: #f4f4f4; /* Light gray background for contrast */
+  padding: 5px; /* Padding inside the grid */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}

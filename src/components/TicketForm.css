@@ -1,0 +1,89 @@
+/* Container for the Ticket Form component */
+.ticket-form {
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Inner spacing for the content */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a clean look */
+  width: 100%; /* Full width of the container */
+  max-width: 690px; /* Limit maximum width */
+}
+
+.ticket-form h2 {
+  text-align: center; /* Center align the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Styling for each group of form elements */
+.form-group {
+  margin-bottom: 20px; /* Add spacing between fields */
+}
+
+.form-group label {
+  display: block; /* Place the label above the input field */
+  font-weight: bold; /* Make the label text bold */
+  font-size: 18px; /* Set label font size */
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+.form-group input {
+  width: 90%; /* Set the input field width */
+  padding: 8px; /* Inner spacing for the input field */
+  font-size: 14px; /* Input text size */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light gray border */
+}
+
+/* Styling for error messages below input fields */
+.error-message {
+  color: red; /* Error text color */
+  font-size: 12px; /* Smaller font for error messages */
+  margin-top: 5px; /* Space above the error message */
+}
+
+/* Container for the buttons */
+.form-buttons {
+  display: flex; /* Arrange buttons horizontally */
+  justify-content: space-between; /* Space out buttons evenly */
+  gap: 20px; /* Space between buttons */
+  margin-top: 30px; /* Space above the buttons section */
+}
+
+/* Common styling for all buttons */
+.start-btn, .stop-btn, .refresh-btn {
+  padding: 10px 20px; /* Inner spacing for the button */
+  border: none; /* Remove default borders */
+  font-size: 16px; /* Button text size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for interactivity */
+  width: 30%; /* Consistent width for all buttons */
+}
+
+/* Start Button (Green) */
+.start-btn {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+}
+
+.start-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Stop Button (Red) */
+.stop-btn {
+  background-color: #f44336; /* Red background */
+  color: white; /* White text */
+}
+
+.stop-btn:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Refresh Button (Blue) */
+.refresh-btn {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+}
+
+.refresh-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

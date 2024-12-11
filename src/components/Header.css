@@ -1,0 +1,21 @@
+/* Header Container */
+.header {
+  display: flex;
+  justify-content: center; /* Center the heading horizontally */
+  align-items: center; /* Center the heading vertically */
+  background-color: #001A6E; /* Light background */
+  padding: 20px; /* Adjust padding to reduce size */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a clean look */
+  height: 30px; /* Reduce height of the grid */
+  text-align: center; /* Align text to center */
+  margin:0;
+  
+}
+
+/* Header Heading */
+.header h1 {
+  font-size: 30px; /* Reduce font size to match smaller header */
+  font-weight: bold; /* Ensures the heading stands out with bold text */
+  color: #ffff; /* Darker text color */
+  margin: 0; /* Remove default margin for better spacing */
+}

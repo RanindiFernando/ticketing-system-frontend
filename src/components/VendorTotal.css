@@ -1,0 +1,54 @@
+/* Vendor Total Container */
+.vendor-total {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center-align items */
+  grid-gap: 10px; /* Add spacing between items */
+  padding: 10px; /* Add padding around the container */
+}
+
+/* Vendor Total Heading */
+.vendor-total h4 {
+  margin: 0.5; /* Reduce default margins */
+  font-size: 20px; /* Set font size for the heading */
+}
+
+/* Vendor Total Buttons Container */
+.vendor-controls {
+  display: flex; /* Align buttons and input in a row */
+  gap: 10px; /* Add spacing between buttons and input */
+}
+
+/* Vendor Total Buttons */
+.vendor-controls button {
+  padding: 5px 10px; /* Add padding for clickable area */
+  font-size: 18px; /* Set font size for button text */
+  background-color: #007bff; /* Set button background color (blue) */
+  color: white; /* Set button text color (white) */
+  border: none; /* Remove default button borders */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  width: 30px; /* Set consistent width for buttons */
+  height: 30px; /* Set consistent height for buttons */
+}
+
+/* Hover Effect for Buttons */
+.vendor-controls button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Active Effect for Buttons */
+.vendor-controls button:active {
+  background-color: #0056b3; /* Change background color on click */
+}
+
+/* Vendor Total Input Field */
+.vendor-controls input {
+  width: 50px; /* Set width for input field */
+  text-align: center; /* Center-align text inside the input */
+  font-size: 16px; /* Set font size for input text */
+  padding: 5px; /* Add padding inside the input field */
+  border-radius: 5px; /* Add rounded corners */
+  border: 1px solid #ccc; /* Add light gray border */
+  font-weight: bold; /* Make input text bold */
+}

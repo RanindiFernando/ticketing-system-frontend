@@ -1,0 +1,40 @@
+/* TicketDisplay Component Container */
+.ticket-display {
+  text-align: center; /* Center align text inside the container */
+  background-color: #ffffff; /* White background for the display box */
+  border-radius: 8px; /* Rounded corners for the container */
+  padding: 17px; /* Padding inside the container for spacing */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a clean look */
+  width: 695px; /* Fixed width of the container */
+}
+
+/* TicketDisplay Heading */
+.ticket-display h3 {
+  font-size: 20px; /* Font size for the heading */
+  font-weight: bold; /* Make the heading text bold */
+  color: #333; /* Dark gray color for the heading text */
+}
+
+/* TicketDisplay Paragraph */
+.ticket-display p {
+  font-size: 17px; /* Font size for the paragraph text */
+  font-weight: bold; /* Make the text bold */
+  color: #173aad; /* Blue color for the ticket count text */
+}
+
+/* Progress Bar Container */
+.progress-bar-container {
+  width: 100%; /* Full width of the container */
+  background-color: #e0e0e0; /* Light gray background for the progress bar */
+  border-radius: 5px; /* Rounded corners for the progress bar container */
+  height: 20px; /* Fixed height of the progress bar */
+  margin-top: 10px; /* Space above the progress bar */
+  overflow: hidden; /* Ensure content doesn't overflow the rounded corners */
+}
+
+/* Progress Bar */
+.progress-bar {
+  height: 100%; /* Fill the full height of the container */
+  background-color: #81BFDA; /* Blue color for the progress bar */
+  transition: width 0.3s ease; /* Smooth transition for width changes */
+}
